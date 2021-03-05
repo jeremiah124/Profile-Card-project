@@ -22,26 +22,30 @@ body {
   left: 42%;
 }
 .position {
+  width: 100px;
+  height: 60px;
   border-radius: 50%;
   position: absolute;
-  right: 75px;
-  top: 50px;
+  right: 65px;
+  top: 65px;
 }
-.bio{
+.bio {
   text-align: center;
+  padding: -20px;
 }
 #name {
   text-align: center;
-  padding-top: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
+  padding-top: 18px;
+  font-family: Kumbh Sans;
+  font-size: large;
 }
- #country {
+#country {
   text-align: center;
   padding-top: -50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
-} .footer {
+  font-family: kumbh sans-serif;
+  font-size: medium;
+}
+.footer {
   display: flex;
   justify-content: space-evenly;
   margin-left: 20px;
